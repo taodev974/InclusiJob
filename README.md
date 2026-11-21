@@ -1,5 +1,7 @@
 # 🚀 InclusiJob
 
+![alt text](image-1.png)
+
 ## Présentation
 
 InclusiJob est un prototype développé dans le cadre du **HIAckathon Inclusif Bordeaux**.
