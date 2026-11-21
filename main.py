@@ -64,7 +64,7 @@ CRITERES = {
         "suggestion": "Éviter les contraintes de disponibilité non essentielles"
     },
 
-    "travail sous pression": {
+    "sous pression": {
     "malus": 10,
     "probleme": "Peut banaliser des conditions de travail génératrices de stress",
     "suggestion": "Préciser les situations exigeantes et les moyens mis en place pour accompagner les collaborateurs"
