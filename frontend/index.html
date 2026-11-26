@@ -5,26 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>InclusiJob</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <header class="header">
       <div class="logo">
-        <span class="logo-inclusi">Inclusi</span>
-        <span class="logo-job">Job</span>
+        <h1>
+          <span class="logo-inclusi">Inclusi</span>
+          <span class="logo-job">Job</span>
+        </h1>
+        <span class="badge"> HIAckathon Bordeaux 2026 </span>
       </div>
       <div class="partenaires">
-        <span>Simplon</span>
-        <span>AI Jump</span>
-        <span>Cap Emploi</span>
-        <span>French Tech</span>
+        <img
+          src="../assets/images/Simplon-Foundation-logo.webp"
+          alt="Simplon"
+        />
+        <img src="../assets/images/ai_jump_logo.svg" alt="AI Jump" />
+        <img src="../assets/images/cap-emploi-logo.png" alt="Cap Emploi" />
+        <div class="logo-frtec">
+          <img
+            src="../assets/images/logo-french-tech.jpg"
+            alt="French Tech Bordeaux"
+          />
+          <div class="logo-frtec-text">
+            <span class="fr-tec-la">La</span>
+            <span class="fr-tec-french-tech">French Tech</span>
+            <span class="fr-tec-bordeaux">Bordeaux</span>
+          </div>
+        </div>
       </div>
     </header>
-    <div class="container">
-      <textarea id="offre"></textarea>
-      <button id="btn">Analyser</button>
-      <div id="resultat"></div>
-    </div>
+    <section class="hero">
+      <div class="hero-content">
+        <span class="hero-tag"> Recrutement inclusif </span>
+
+        <h2>L'IA au service d'un recrutement plus inclusif</h2>
+
+        <p>
+          Analysez vos offres d'emploi et identifiez instantanément les
+          formulations susceptibles d'exclure certains talents.
+        </p>
+
+        <button class="hero-btn">Commencer l'analyse</button>
+        <div class="hero-features">
+          <span>✓ Détection de biais</span>
+          <span>✓ Analyse instantanée</span>
+          <span>✓ Recommandations inclusives</span>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="../assets/images/Logo_Site_HIACKATHON Bordeaux.png"
+          alt="Illustration HIAckathon"
+        />
+      </div>
+    </section>
+
+    <section class="analyse">
+      <div class="analyse-card">
+        <h2>Analyser une offre d'emploi</h2>
+        <p>
+          Collez votre offre d'emploi afin d'identifier les formulations
+          susceptibles de limiter l'inclusion.
+        </p>
+        <textarea id="offre"></textarea>
+        <div class="analyse-actions">
+          <button id="btn">Analyser l'offre</button>
+        </div>
+      </div>
+    </section>
+
     <script src="script.js"></script>
   </body>
 </html>
