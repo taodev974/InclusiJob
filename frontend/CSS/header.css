@@ -1,0 +1,86 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  padding: 0 1em;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  gap: 5px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  gap: 0.5em;
+}
+.logo h1 {
+  margin: 0;
+  line-height: 1;
+  font-size: 1.8rem;
+}
+.logo-Inclusi {
+  color: #0f172a;
+}
+
+.logo-job {
+  color: #2563eb;
+}
+
+.badge {
+  padding: 2px 5px;
+  border-radius: 20px;
+  background: #dbeafe;
+  color: #2563eb;
+  font-size: 0.35rem;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  font-weight: 700;
+  /* justify-content: end; */
+}
+.partenaires {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.partenaires img {
+  height: 30px;
+  width: auto;
+  opacity: 0.8;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.partenaires:hover {
+  opacity: 1;
+}
+.logo-frtec {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0px;
+  margin-left: -5px;
+  cursor: pointer;
+}
+.fr-tec-la {
+  color: gray;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.fr-tec-french-tech {
+  color: gray;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  flex-wrap: nowrap;
+}
+.logo-frtec-text {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 8px;
+}
+.fr-tec-bordeaux {
+  color: #c11b17;
+}
