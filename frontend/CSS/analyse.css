@@ -7,6 +7,59 @@
   width: min(100%, 900px);
   background: white;
   padding: 40px;
-  border-radius: 24px;
+  border-radius: 32px;
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+analyse-tag {
+  display: inline-block;
+
+  padding: 8px 16px;
+
+  border-radius: 25px;
+
+  background: #dbeafe;
+
+  color: #2563eb;
+
+  font-weight: 600;
+
+  margin-bottom: 20px;
+}
+.analyse-card h2 {
+  margin-top: 0;
+
+  font-size: 2rem;
+}
+.analyse-card p {
+  color: #64748b;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+#offre {
+  width: 100%;
+  min-height: 250px;
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid #cbd5e1;
+  font-size: 1rem;
+  resize: vertical;
+}
+.analyse-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-top: 20px;
+}
+.secondary-btn {
+  background: white;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding: 12px 20px;
+}
+#btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 20px;
 }

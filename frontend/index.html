@@ -57,8 +57,9 @@
           Analysez vos offres d'emploi et identifiez instantanément les
           formulations susceptibles d'exclure certains talents.
         </p>
-
-        <button class="hero-btn">Commencer l'analyse</button>
+        <a href="#analyse">
+          <button class="hero-btn">Commencer l'analyse</button>
+        </a>
         <div class="hero-features">
           <span>✓ Détection de biais</span>
           <span>✓ Analyse instantanée</span>
@@ -74,20 +75,34 @@
       </div>
     </section>
 
-    <section class="analyse">
+    <section class="analyse" id="analyse">
       <div class="analyse-card">
+        <span class="analyse-tag"> 📄 Analyse IA </span>
+
         <h2>Analyser une offre d'emploi</h2>
+
         <p>
-          Collez votre offre d'emploi afin d'identifier les formulations
-          susceptibles de limiter l'inclusion.
+          Obtenez un score d'inclusivité et des recommandations instantanées
+          pour vos annonces.
         </p>
-        <textarea id="offre"></textarea>
+
+        <textarea
+          id="offre"
+          placeholder="Collez ici votre offre d'emploi..."
+        ></textarea>
+
         <div class="analyse-actions">
+          <button class="secondary-btn" id="btn-importDoc">
+            Importer un document
+          </button>
+
           <button id="btn">Analyser l'offre</button>
         </div>
       </div>
     </section>
-
-    <script src="script.js"></script>
+    <section class="resultats">
+      <div id="resultat"></div>
+    </section>
+    <script src="./js/script.js"></script>
   </body>
 </html>
